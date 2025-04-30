@@ -179,7 +179,7 @@ v
 
 ### 1⃣ Start Screen
 - App Logo  
-- Tagline: **"Helping Autism Speak, See & Feel"**
+- Tagline: **"සහාය ම​ග"**
 - Button: `Get Started`
 
 ---
