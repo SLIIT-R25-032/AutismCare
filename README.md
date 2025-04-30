@@ -182,10 +182,8 @@ This research component introduces a Sinhala-language mobile application designe
 ---
 
 
-# 🧠 Sinhala Autism App – Cognitive Skill Development for Children (Ages 6–10)
+# 🧠 IT21241000 Indeewara M.M.A   – Cognitive Skill Development for Children (Ages 6–10)
 
-**👨‍🎓 Student ID:** IT21241000  
-**📛 Name:** Indeewara M.M.A  
 **📘 Research Component:** Cognitive Skill Development in Children Aged 6–10 with Level 1 Autism  
 **🎓 Institution:** Sri Lanka Institute of Information Technology (SLIIT)
 
