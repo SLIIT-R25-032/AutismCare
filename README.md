@@ -138,7 +138,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 **How can a mobile app help Sinhala-speaking children with autism (aged 6–10) learn new words effectively and keep them happy?**
 
-### 🎯 Objectives
+###  Objectives
 
 - Build a fun, child-friendly mobile app tailored for Sinhala language and culture  
 - Integrate three core ML models for:  
@@ -150,7 +150,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 ---
 
-## 🧠 Technology Stack
+##  Technology Stack
 
 | Component                  | Tools/Frameworks                                                |
 |---------------------------|-----------------------------------------------------------------|
@@ -163,7 +163,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 ---
 
-## 🧪 Core System Features
+##  Core System Features
 
 ### 🎮 Activities
 
@@ -182,7 +182,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 ---
 
-## 🧬 Dopamine-Adaptive Behavior
+##  Dopamine-Adaptive Behavior
 
 | Dopamine Level | App Response                         |
 |----------------|--------------------------------------|
@@ -192,7 +192,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 ---
 
-## 📊 Parent/Therapist Dashboard
+##  Parent/Therapist Dashboard
 
 - View speech, visual, and emotion accuracy  
 - See dopamine trends across sessions  
