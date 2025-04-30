@@ -101,8 +101,7 @@ v
 
 
 ______________________________________________________________________________________________________________________________
-# Wijesinghe R.M – IT21820250 
-**🧠 Communication Skills Development for Autistic Children **
+# Wijesinghe R.M – IT21820250 - Communication Skills Development for Autistic Children
 
 ---
 
