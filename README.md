@@ -8,7 +8,7 @@ skill development engaging and effective for Level 1 autistic children. It uses 
 |Indeewara M.M.A       |  IT21241000       |            | |
 |   Chandrabanu M.M.U      |        |           | |
 ## Features
-IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
+#IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 - Autism Behavior Prediction: Predict the autism behavior level based on factors like age, gender, mood, engagement level, and more using machine learning.
 - Emotion & Mood Analysis: Analyze and assess the emotional states of individuals during behavioral tasks.
 - User Authentication: Supports caregiver, therapist, and researcher roles for secure access to the platform.
