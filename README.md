@@ -1,4 +1,4 @@
-# Autism Care App
+# Autism Care App - සහාය මග
 Our research focuses on advancing home-based autism
 care through an intelligent mobile solution designed to
 support autistic children and their parents in Sinhala. The
