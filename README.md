@@ -1,8 +1,8 @@
 # Autism Care App
 | Name with Initials     | Registration Number | Contact Phone Number | Email                  |
 |------------------------|---------------------|-----------------------|------------------------|
+|Chethani A.V.S         |  IT21834592         |            |   |
 |Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
-|            |           |            |   |
 |          |         |            | |
 |         |        |           | |
 ## Features
