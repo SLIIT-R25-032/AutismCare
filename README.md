@@ -347,3 +347,83 @@ This project aims to improve the quality of life and learning outcomes for child
 5.  Track progress & access personalized reports  
 
 #  IT21814006 Chandrabanu M.M.U   – 
+#  Command Response Skills Development Module
+
+**Component of:** AutismCare – Intelligent Sinhala-Language Mobile App for Children with Autism  
+**Module Role:** Individual Research Responsibility  
+**Focus:** Real-time Action Recognition with Machine Learning
+
+---
+
+##  Overview
+
+The **Command Response Skills Module** is a specialized component of the AutismCare app designed to help children with **Level 1 Autism (ages 6–10)** develop **basic listening and motor response skills** by following simple verbal instructions. This module integrates **computer vision**, **deep learning**, and **real-time feedback** to reinforce command-following behaviors in an interactive and engaging way.
+
+---
+
+##  Goals & Objectives
+
+- ✅ Develop a machine learning model to classify physical actions  
+- ✅ Train the model using categorized `.jpg` image datasets of human movements  
+- ✅ Provide real-time feedback on whether the child performed a given command correctly  
+- ✅ Create an intuitive, child-friendly, and autism-sensitive interface  
+- ✅ Integrate seamlessly into the existing Flutter-based mobile app  
+
+---
+
+##  Target Commands to Recognize
+
+- "Stand Up"  
+- "Clap Twice"  
+- "Jump Thrice"  
+- "Sit Down"  
+
+These foundational commands support the development of **motor coordination**, **auditory comprehension**, and **response accuracy** in autistic children.
+
+---
+
+## Technical Implementation
+
+| Task                     | Tools/Approach                              |
+|--------------------------|---------------------------------------------|
+| Image Dataset Preparation | Labeled `.jpg` files by action class       |
+| Preprocessing            | Resizing, normalization, augmentation       |
+| Model Architecture       | CNN (VGG16, MobileNetV2, or custom CNN)     |
+| Training & Evaluation    | TensorFlow / Keras (Python)                 |
+| App Integration          | Convert model to TFLite, integrate with Flutter |
+| Real-time Inference      | Camera input + classification + feedback    |
+| Response System          | Visual/audio cues for success or retry      |
+
+---
+
+## 🔄 Flow of Interaction
+
+1. The child receives a **verbal or visual command** (e.g., "Clap Twice")  
+2. The app **activates the camera** and captures the child’s action  
+3. The **CNN model classifies** the input as one of the predefined commands  
+4. **Feedback is provided:**
+   - ✅ **Correct**: Positive reinforcement (animation, praise)  
+   - ❌ **Incorrect**: Friendly retry prompt  
+5. **Responses are logged** for analysis by parents or therapists  
+
+---
+
+##  Design Considerations for Autism
+
+- Simple command structure with **both audio and visual prompts**  
+- **Calming colors** and **smooth UI transitions**  
+- **Minimal distractions**, large tap areas  
+- Encouraging **retry mechanism** with positive tone  
+
+---
+
+##  Future Extensions
+
+- Incorporate **video-based pose estimation** (e.g., MediaPipe + LSTM)  
+- Support **multi-step commands** (e.g., “Stand up and clap”)  
+- Enable **continuous model refinement** using personalized data  
+
+---
+
+This module aims to blend **machine learning** and **autism therapy best practices** to help children build essential real-world skills through an app that’s both supportive and interactive.
+
