@@ -16,7 +16,6 @@ skill development engaging and effective for Level 1 autistic children. It uses 
 - Object Detection: Detect objects in images using the YOLOv8 model.
 
 ## Architecture
-IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 The project consists of two main services:
 
 1. **Node.js/Express Backend**
@@ -31,7 +30,6 @@ The project consists of two main services:
    - Utilizes Python libraries such as FastAPI, YOLOv8.
 
 ## Installation
-IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 
 ### Prerequisites
 
@@ -69,7 +67,6 @@ Ensure that the following are installed on your machine:
 
 ### User Authentication
 
-IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 
 - POST /auth/register: Register a new user.
 - POST /auth/login: Login for an existing user.
@@ -89,14 +86,13 @@ IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 - POST /detect-objects: Upload an image and get detected objects using the YOLOv8 model.v
   
 ## Contributing
-IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 1. Fork the repository.
 2. Create your feature branch (git checkout -b feature/your-feature).
 3. Commit your changes (git commit -m 'Add some feature').
 4. Push to the branch (git push origin feature/your-feature).
 5. Open a pull request.
 
-v
+
 
 
 
