@@ -131,3 +131,80 @@ After login, view:
 - **Firebase** or **Flask + MongoDB** for backend  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🧠 Sinhala Autism App – Cognitive Skill Development for Children (Ages 6–10)
+Student ID: IT21241000
+Name: Indeewara M.M.A
+Component: Cognitive Skill Development in Children Aged 6–10 with Level 1 Autism
+
+📌 Overview
+This research introduces an intelligent Sinhala-language mobile application designed to support cognitive skill development in children aged 6–10 with Level 1 Autism in Sri Lanka. It bridges the gap between home-based and institutional care through personalized, gamified, and scientifically validated interventions that target foundational cognitive skills.
+
+🎯 Key Features
+
+✅ Automated Activity Generation
+Activities are personalized based on a parental survey assessing the child's current cognitive abilities.
+
+🧩 Activity Design
+Manipulative Skill Activities
+Tap to pop balloons
+Swipe to clean
+Dot to dot
+Drag and drop matching
+Trace the path
+Interactive coloring
+
+Basic Math Concepts Activities
+Big/Small, Long/Short comparisons
+Position recognition (up/down/left/right/middle)
+Shape identification and drawing
+Quantity recognition (many vs. few)
+Number recognition and counting (1–10)
+Number writing practice with feedback
+
+🏆 Gamification Techniques
+Earn stars, badges, and unlock milestones to motivate engagement
+
+📊 Dynamic Progress Tracking
+Real-time feedback on task completion, duration, and error count
+
+🤖 Machine Learning
+Predicts each child’s future developmental path using activity data
+
+🖼️ Image Processing
+Validates shape tracing and number writing accuracy using edge detection and CNNs
+
+🧘 Relaxation Sessions
+Built-in calming techniques to prevent sensory overload and support emotional balance
+
+🧪 Technologies Used
+Flutter – UI development
+Python – For ML models and image processing
+TensorFlow / Keras (CNN models) – Drawing and shape validation
+Firebase – User data storage & real-time syncing
+SQLite – Local activity data caching
+OpenCV – Shape tracing and edge detection
+Dart – Logic & state management
+Figma – UI/UX Design prototyping
+
+🔁 Application Flow
+1.Home Page Interface
+Displays 20 level-based activity buttons
+Each button links to a specific skill-building activity
+Activities are grouped into difficulty levels to ensure progression
+
+2.Activity Execution
+Upon selection, the app guides the child through the interactive task
+Audio/visual cues assist navigation
+After completion, the system evaluates and tracks performance
+
+3.Adaptive Learning
+As the child improves, progressively more advanced tasks are unlocked
+
+4.Progress Reports
+Parents receive weekly reports showing skill progress, areas for improvement, and predictive insights
+
+
+
+
+
