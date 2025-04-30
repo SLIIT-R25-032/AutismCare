@@ -3,8 +3,8 @@ skill development engaging and effective for Level 1 autistic children. It uses 
 
 | Name with Initials     | Registration Number | Contact Phone Number | Email                  |
 |------------------------|---------------------|-----------------------|------------------------|
+|Chethani A.V.S         |  IT21834592         |            |   |
 |Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
-|            |           |            |   |
 |          |         |            | |
 |         |        |           | |
 ## Features
@@ -102,209 +102,81 @@ v
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Name:** Wijesinghe R.M  
-
-- **Student ID:** IT21820250  
-- **Component:** Communication Skills Development for Autistic Children
-
-- Communication Skills Development focuses on helping autistic children improve their ability to express and understand language through interactive activities. This component uses games involving speech repetition, image recognition, and emotion matching. Machine learning is used to assess the child’s speech accuracy and emotional state, allowing the app to adapt in real time and provide personalized support for effective communication growth.
+______________________________________________________________________________________________________________________________
+# Wijesinghe R.M – IT21820250 - Communication Skills Development for Autistic Children
 
 ---
 
-## 🚀 Component Flow 
+### A Personalized Sinhala-Language Mobile App with Multi-Model AI to Support Communication in Children with Autism
 
-### 1⃣ Start Screen
-- App Logo  
-- Tagline: **"Helping Autism Speak, See & Feel"**
-- Button: `Get Started`
+This research component introduces a Sinhala-language mobile application designed to help children with autism (ages 6–10) improve their communication skills. The system combines interactive activities with three specialized machine learning models to assess dopamine levels, speech accuracy, and visual understanding (especially color/object recognition). The goal is to support vocabulary learning in an emotionally intelligent, adaptive, and engaging way — keeping children both learning and happy.
 
 ---
 
-## 👥 Login / Registration
+## 🔍 Research Focus
 
-### 🔐 Parent/Therapist
-- Register using email and password  
-- Add child profile (Name, Age, Avatar)
+### 📌 Research Question
 
-### 👶 Child
-- Login with 4-digit PIN or avatar selection
+**How can a mobile app help Sinhala-speaking children with autism (aged 6–10) learn new words effectively and keep them happy?**
 
----
+### 🎯 Objectives
 
-## 🏠 Child Home Page
-
-Welcome message:  
-`"Good afternoon, Emma!"`
-
-### 🎮 Game Options:
-- 🗣️ **Speak with Me**
-- 👁️ **See & Match**
-- 😊 **Feel & Guess**
-- 🎯 **Today’s Goal**
-- 🕹️ **Free Play**
+- Build a fun, child-friendly mobile app tailored for Sinhala language and culture  
+- Integrate three core ML models for:  
+  1. 🎙️ **Dopamine Prediction** – Understand emotional state from speech  
+  2. ✅ **Speech Accuracy Detection** – Evaluate pronunciation and repetition  
+  3. 🎨 **Color/Object Recognition** – Validate understanding of basic vocabulary visually  
+- Adapt activity flow based on dopamine levels to maintain motivation  
+- Enable therapist/parent insight with progress reports and emotional tracking  
 
 ---
 
-## 🧩 Game Activities
+## 🧠 Technology Stack
 
-### 🗣️ Speak with Me
-- App says: `"I am happy today"`
-- Child repeats the phrase  
-- 🔊 Voice is recorded  
-- ✅ ML checks for correctness  
-- 🧬 ML detects dopamine level from voice
-
----
-
-### 👁️ See & Match
-- Shows an image (e.g., 🍎 apple)  
-- App says: `"Find the apple"`  
-- Child taps the correct image  
-- ✅ ML validates the response
+| Component                  | Tools/Frameworks                                                |
+|---------------------------|-----------------------------------------------------------------|
+| ML Models                 | `TensorFlow`, `scikit-learn`, `librosa`, `OpenCV`               |
+| Dopamine Prediction       | MFCC-based voice classifier                                     |
+| Speech Accuracy Detection | `speech_recognition`, Sinhala audio dataset, DTW/phoneme match |
+| Color Recognition         | CNN model trained on basic color + object images               |
+| App Frontend              | `Flutter` (with Sinhala UI and text-to-speech)                 |
+| Backend & Reports         | `Flask`, `MongoDB`, `pdfkit`                                   |
 
 ---
 
-### 😊 Feel & Guess
-- Shows a cartoon face (e.g., 😢 sad)  
-- Child selects correct emotion  
-- ✅ ML logs result for emotion accuracy
+## 🧪 Core System Features
+
+### 🎮 Activities
+
+- **Speak with Me**  
+  - Sinhala phrases are spoken by the app  
+  - Child repeats → Accuracy checked → Dopamine analyzed  
+  - App reacts (e.g., praises, adapts difficulty, adjusts music)
+
+- **See & Match**  
+  - Image of colored object (e.g., red apple) shown  
+  - Child taps matching object → Color recognition model validates
+
+- **Feel & Guess**  
+  - Cartoon faces (happy, sad, angry) → Emotion selected by child  
+  - Result logged for therapist review
 
 ---
 
-## 🧬 Dopamine Detection
+## 🧬 Dopamine-Adaptive Behavior
 
-After voice input:
-- ML checks dopamine level
-
-| Dopamine Level | Action                          |
-|----------------|----------------------------------|
-| Normal         | ✅ Continue to next activity     |
-| Low            | 👉 Redirect to **Boost Zone**    |
-| High           | 👉 Redirect to **Harmony Zone**  |
+| Dopamine Level | App Response                         |
+|----------------|--------------------------------------|
+| Normal         | Continue next activity               |
+| Low            | 👉 Boost Zone (energetic animations + music)  
+| High           | 👉 Harmony Zone (calming visuals + music)
 
 ---
 
-## ⚡ Boost Zone
-- 🎉 Fun emojis and music notes  
-- 🔊 Plays energetic, stimulating music  
-- ⏳ Progress bar for activity time  
+## 📊 Parent/Therapist Dashboard
+
+- View speech, visual, and emotion accuracy  
+- See dopamine trends across sessions  
+- Export daily/weekly performance as PDF
 
 ---
-
-## 🧘 Harmony Zone
-- 🌸 Soft colors, calm emoji  
-- 🎵 Plays relaxing music  
-- ⏳ Progress bar  
-
----
-
-## 🎯 Today’s Goal Screen
-
-Example goals:
-- Say **3** phrases  
-- Match **2** pictures  
-- Identify **1** emotion  
-
-Includes:
-- ✅ Progress bar  
-- Buttons: `Start` / `Back to Home`
-
----
-
-## 🧑‍💼 Parent / Therapist Dashboard
-
-After login, view:
-- 📊 Child progress (speech, visual, emotional)
-- 🎯 Daily goals  
-- 🧬 Dopamine response logs  
-- 📄 Export report as PDF  
-
----
-
-## ⚙️ Settings
-- ✏️ Edit profile  
-- 🔒 Change PIN  
-- ➕➖ Add or remove children  
-- 🚪 Logout  
-
----
-
-## 📌 Technologies (Planned/Recommended)
-- **Flutter** for cross-platform mobile UI  
-- **TensorFlow Lite** / **PyTorch Mobile** for on-device ML  
-- **Speech Recognition + Emotion Detection**  
-- **Firebase** or **Flask + MongoDB** for backend  
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
