@@ -101,11 +101,10 @@ v
 
 
 ______________________________________________________________________________________________________________________________
-**Wijesinghe R.M -  IT21820250
-**
+# 🧠 Communication Skills Development for Autistic Children  
+**Wijesinghe R.M – IT21820250**
 
-
-# 🗣️ Communication Skills Development for Autistic Children
+---
 
 ### A Personalized Sinhala-Language Mobile App with Multi-Model AI to Support Communication in Children with Autism
 
@@ -121,13 +120,13 @@ This research component introduces a Sinhala-language mobile application designe
 
 ### 🎯 Objectives
 
-- Build a fun, child-friendly mobile app tailored for Sinhala language and culture
-- Integrate three core ML models for:
-  1. 🎙️ **Dopamine Prediction** – Understand emotional state from speech
-  2. ✅ **Speech Accuracy Detection** – Evaluate pronunciation and repetition
-  3. 🎨 **Color/Object Recognition** – Validate understanding of basic vocabulary visually
-- Adapt activity flow based on dopamine levels to maintain motivation
-- Enable therapist/parent insight with progress reports and emotional tracking
+- Build a fun, child-friendly mobile app tailored for Sinhala language and culture  
+- Integrate three core ML models for:  
+  1. 🎙️ **Dopamine Prediction** – Understand emotional state from speech  
+  2. ✅ **Speech Accuracy Detection** – Evaluate pronunciation and repetition  
+  3. 🎨 **Color/Object Recognition** – Validate understanding of basic vocabulary visually  
+- Adapt activity flow based on dopamine levels to maintain motivation  
+- Enable therapist/parent insight with progress reports and emotional tracking  
 
 ---
 
@@ -180,23 +179,3 @@ This research component introduces a Sinhala-language mobile application designe
 - Export daily/weekly performance as PDF
 
 ---
-
-## 📦 Sample Output
-
-```json
-{
-  "child": "Kavindu",
-  "dopamine_level": "Low",
-  "speech_accuracy": 82,
-  "color_match": "Correct",
-  "emotion_selected": "Sad",
-  "action": "Redirect to Boost Zone"
-}
-
-___
-
-
-
-
-
-
