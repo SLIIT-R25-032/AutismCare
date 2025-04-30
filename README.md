@@ -2,9 +2,11 @@
 - **Student ID:** IT21820250  
 - **Component:** Communication Skills Development for Autistic Children
 
+- Communication Skills Development focuses on helping autistic children improve their ability to express and understand language through interactive activities. This component uses games involving speech repetition, image recognition, and emotion matching. Machine learning is used to assess the child’s speech accuracy and emotional state, allowing the app to adapt in real time and provide personalized support for effective communication growth.
+
 ---
 
-## 🚀 App Flow
+## 🚀 Component Flow 
 
 ### 1⃣ Start Screen
 - App Logo  
