@@ -1,4 +1,12 @@
-# Autism Behavior- v
+# Autism Care App
+## Features
+IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
+- Autism Behavior Prediction: Predict the autism behavior level based on factors like age, gender, mood, engagement level, and more using machine learning.
+- Emotion & Mood Analysis: Analyze and assess the emotional states of individuals during behavioral tasks.
+- User Authentication: Supports caregiver, therapist, and researcher roles for secure access to the platform.
+- Data Management: MongoDB is used for storing user data and behavioral analysis results.
+- Object Detection: Detect objects in images using the YOLOv8 model.
+
 
 **Name:** Wijesinghe R.M  
 
