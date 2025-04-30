@@ -204,7 +204,6 @@ This research component introduces a Sinhala-language mobile application designe
 #  IT21241000 Indeewara M.M.A   – Cognitive Skill Development for Children (Ages 6–10)
 
 ** Research Component:** Cognitive Skill Development in Children Aged 6–10 with Level 1 Autism  
-** Institution:** Sri Lanka Institute of Information Technology (SLIIT)
 
 ---
 
