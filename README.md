@@ -3,7 +3,7 @@ skill development engaging and effective for Level 1 autistic children. It uses 
 
 | Name with Initials     | Registration Number | Contact Phone Number | Email                  |
 |------------------------|---------------------|-----------------------|------------------------|
-|Chethani A.V.S         |  IT21834592         |  0741433687          |  it21834592@MY.sliit.lk |
+|Chethani A.V.S         |  IT21834592         |  0741433687          |  it21834592@my.sliit.lk |
 |Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
 |Indeewara M.M.A       |  IT21241000       |            | |
 |   Chandrabanu M.M.U      |        |           | |
