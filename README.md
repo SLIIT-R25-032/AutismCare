@@ -1,5 +1,28 @@
 # Autism Care App
-skill development engaging and effective for Level 1 autistic children. It uses adaptive learning technologies to provide interactive features that enhance child engagement and deliver personalized learning experiences. Parents can track their child's progress and receive tailored recommendationsto support their development. This solution offers an accessible and culturally relevant approach to autism care at home.
+Our research focuses on advancing home-based autism
+care through an intelligent mobile solution designed to
+support autistic children and their parents in Sinhala. The
+app incorporates activity -based learning methods to make
+skill development engaging and effective for Level 1 autism
+children. It uses adaptive learning technologies to provide
+interactive features that enhance child engagement and
+deliver personalized learning experiences. Parents can track
+their child's progress and receive tailored recommendations
+to support their development. This solution offers an
+accessible and culturally relevant approach to autism care
+at home.
+Our research focuses on advancing home-based autism
+care through an intelligent mobile solution designed to
+support autistic children and their parents in Sinhala. The
+app incorporates activity -based learning methods to make
+skill development engaging and effective for Level 1 autism
+children. It uses adaptive learning technologies to provide
+interactive features that enhance child engagement and
+deliver personalized learning experiences. Parents can track
+their child's progress and receive tailored recommendations
+to support their development. This solution offers an
+accessible and culturally relevant approach to autism care
+at home..
 
 | Name with Initials     | Registration Number | Contact Phone Number | Email                  |
 |------------------------|---------------------|-----------------------|------------------------|
