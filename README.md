@@ -1,4 +1,10 @@
 # Autism Care App
+| Name with Initials     | Registration Number | Contact Phone Number | Email                  |
+|------------------------|---------------------|-----------------------|------------------------|
+|Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
+|            |           |            |   |
+|          |         |            | |
+|         |        |           | |
 ## Features
 IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 - Autism Behavior Prediction: Predict the autism behavior level based on factors like age, gender, mood, engagement level, and more using machine learning.
