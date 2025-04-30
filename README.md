@@ -5,8 +5,8 @@ skill development engaging and effective for Level 1 autistic children. It uses 
 |------------------------|---------------------|-----------------------|------------------------|
 |Chethani A.V.S         |  IT21834592         |  0741433687          |  it21834592@MY.sliit.lk |
 |Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
-|          |         |            | |
-|         |        |           | |
+|Indeewara M.M.A       |  IT21241000       |            | |
+|   Chandrabanu M.M.U      |        |           | |
 ## Features
 IT21834592-Chethani A.V.S - Behavior and Recognition Skill Development
 - Autism Behavior Prediction: Predict the autism behavior level based on factors like age, gender, mood, engagement level, and more using machine learning.
