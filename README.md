@@ -1,4 +1,6 @@
-# Autism Care App
+# Autism Care Appv
+skill development engaging and effective for Level 1 autistic children. It uses adaptive learning technologies to provide interactive features that enhance child engagement and deliver personalized learning experiences. Parents can track their child's progress and receive tailored recommendationsto support their development. This solution offers an accessible and culturally relevant approach to autism care at home.
+
 | Name with Initials     | Registration Number | Contact Phone Number | Email                  |
 |------------------------|---------------------|-----------------------|------------------------|
 |Wijesinghe R.M             |   IT21820250     |   0759571894        | it21820250@my.sliit.lk |
