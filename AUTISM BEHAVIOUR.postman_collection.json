@@ -1,0 +1,359 @@
+{
+	"info": {
+		"_postman_id": "2418fce8-ba4c-4be9-bbaa-e538f9b5a76f",
+		"name": "AUTISM BEHAVIOUR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33157688"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fullName\":\"Sudarika Chethani\",\r\n  \"email\": \"sudarika@gmail.com\",\r\n  \"password\": \"sudarika\",\r\n  \"age\":10,\r\n  \"gender\":\"Female\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"sudarika@gmail.com\",\r\n  \"password\": \"sudarika\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Behaviour Learning",
+			"item": [
+				{
+					"name": "Start Learning Session",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"selectedLocation\": \"Playground\",\r\n  \"detectedObjects\": \"Chair, Table, Menu\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/learning",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"learning"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Object Detction",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/avish/Downloads/default_name.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/learning/detect-objects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"learning",
+								"detect-objects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Learning",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"instructioId\": 10,\r\n    \"quesition\": \"අශ්වයා පැනනගින්නේ කෙසේද?\",\r\n    \"correctAnswer\": \"දඩියලි\",\r\n    \"wrongAnswer\": \"පිඹිම\",\r\n    \"selectedAnswer\": \"දඩියලි\",\r\n    \"isCorrect\": true,\r\n    \"takenTime\": 12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/learning/instructions/67ea2e1a315965423b6ce069",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"learning",
+								"instructions",
+								"67ea2e1a315965423b6ce069"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Completed Learning Session",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"finishedSession\": true,\r\n  \"currentMood\": \"Happy\",\r\n  \"parentSatisfaction\": 5,\r\n  \"engagementLevel\": 4\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/learning/finish/67e9113235f03d43b890d3a8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"learning",
+								"finish",
+								"67e9113235f03d43b890d3a8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Learning Session",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"finishedSession\": true,\r\n  \"currentMood\": \"Happy\",\r\n  \"parentSatisfaction\": 5,\r\n  \"engagementLevel\": 4\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/learning/67e83b1b2795f074f89ac2af",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"learning",
+								"67e83b1b2795f074f89ac2af"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Email Service",
+			"item": [
+				{
+					"name": "Send Email",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"sessionId\": \"67e8a7cb50bc82cccb805be5\",\r\n  \"email\": \"avsudari@gmail.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/email/send",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"email",
+								"send"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTgzNDEzNGEwZjAzNWEyZDEyZTRiNyIsImlhdCI6MTc0MzQwMDQyOSwiZXhwIjoxNzQ0NjEwMDI5fQ.zm5sfcAXpQvVvwVK5tNUIdclX7vnzQ4W73x8Udn15oY",
+			"type": "string"
+		}
+	]
+}
