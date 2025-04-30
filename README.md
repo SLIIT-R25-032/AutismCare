@@ -201,10 +201,10 @@ This research component introduces a Sinhala-language mobile application designe
 ---
 
 
-# 🧠 IT21241000 Indeewara M.M.A   – Cognitive Skill Development for Children (Ages 6–10)
+#  IT21241000 Indeewara M.M.A   – Cognitive Skill Development for Children (Ages 6–10)
 
-**📘 Research Component:** Cognitive Skill Development in Children Aged 6–10 with Level 1 Autism  
-**🎓 Institution:** Sri Lanka Institute of Information Technology (SLIIT)
+** Research Component:** Cognitive Skill Development in Children Aged 6–10 with Level 1 Autism  
+** Institution:** Sri Lanka Institute of Information Technology (SLIIT)
 
 ---
 
@@ -226,7 +226,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🎯 Key Objectives
+##  Key Objectives
 
 - Design developmentally appropriate activities in Sinhala  
 - Implement a survey-based system to auto-generate personalized activity sets  
@@ -243,7 +243,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🧪 App Features
+##  App Features
 
 ### 🎮 Interactive Learning Activities
 
@@ -265,7 +265,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🧠 Adaptive Learning Flow
+##  Adaptive Learning Flow
 
 | Performance Level | App Response                          |
 |-------------------|----------------------------------------|
@@ -275,7 +275,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 📊 Progress Monitoring & Personalization
+##  Progress Monitoring & Personalization
 
 - Real-time tracking: task completion %, error rates, and time  
 - ML-based prediction of cognitive development trends  
@@ -283,7 +283,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🧘 Stress Management Features
+##  Stress Management Features
 
 - Relaxation sessions after tasks  
 - Calming visuals, music, and animations  
@@ -291,7 +291,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 | Area                   | Tools & Frameworks                       |
 |------------------------|------------------------------------------|
