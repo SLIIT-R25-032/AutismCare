@@ -208,7 +208,7 @@ This research component introduces a Sinhala-language mobile application designe
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 This research introduces a **Sinhala-language mobile application** designed to support **cognitive skill development** in Sri Lankan children aged **6–10 years** with **Level 1 Autism Spectrum Disorder (ASD)**. The application addresses critical gaps in localized resources, offering **personalized**, **gamified**, and **scientifically validated learning** tailored to the cultural and linguistic context of Sri Lanka.
 
@@ -216,12 +216,12 @@ Using **machine learning**, **image processing**, and **adaptive learning system
 
 ---
 
-## 🔍 Research Focus
+##  Research Focus
 
-### 🧩 Research Problem
+###  Research Problem
 Children with autism in Sri Lanka lack access to affordable, culturally relevant tools that target their specific cognitive development needs. Most existing apps are not in Sinhala and do not provide adaptive or emotion-sensitive learning.
 
-### 🎯 Research Goal
+###  Research Goal
 To build an interactive **Sinhala-language mobile app** that fosters **cognitive skills** in autistic children using **localized content**, **real-time feedback**, and **data-driven personalization**.
 
 ---
@@ -245,7 +245,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ##  App Features
 
-### 🎮 Interactive Learning Activities
+###  Interactive Learning Activities
 
 #### Manipulative Skill Development
 - Tap to Pop Balloons  
@@ -304,7 +304,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🔄 System Flow
+##  System Flow
 
 1. Home Page: Displays 20 level-based activity buttons  
 2. Parent Survey: Collects cognitive info for personalized content  
@@ -316,7 +316,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 👪 Parent & Therapist Dashboard
+##  Parent & Therapist Dashboard
 
 - View real-time skill performance  
 - Track week-to-week progress  
@@ -325,7 +325,7 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 🌍 Cultural Relevance
+##  Cultural Relevance
 
 - Entire UI and voice prompts in Sinhala  
 - Activity design reflects local objects, colors, and learning methods  
@@ -333,18 +333,18 @@ To build an interactive **Sinhala-language mobile app** that fosters **cognitive
 
 ---
 
-## 💡 Expected Impact
+##  Expected Impact
 
 This project aims to improve the quality of life and learning outcomes for children with autism in Sri Lanka. It empowers families with an easy-to-use, science-backed app that delivers affordable, localized, and adaptive education—filling a vital gap in autism care.
 
 ---
 
-## 📥 How to Use *(Coming Soon)*
+##  How to Use *(Coming Soon)*
 
-1. 📲 Download APK  
-2. 📝 Complete Parent Survey  
-3. ▶️ Tap an activity from Home Page  
-4. 🧠 Let the child complete interactive tasks  
-5. 📈 Track progress & access personalized reports  
+1.  Download APK  
+2.  Complete Parent Survey  
+3.  Tap an activity from Home Page  
+4.  Let the child complete interactive tasks  
+5.  Track progress & access personalized reports  
 
 #  IT21814006 Chandrabanu M.M.U   – 
